@@ -54,7 +54,7 @@ Star counts read from the GitHub API on 2026-10-11.
 
 | project | stars | what it is | why it is not this |
 |---|---|---|---|
-| [vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) | 15,983 | RAG evaluation with LLM-as-judge metrics | every metric calls a judge model, and its synthetic test generation is LLM-based as well |
+| [vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) | 15,983 | RAG evaluation with LLM-as-judge metrics | its metrics are model-graded (a few non-LLM variants exist, and they still need reference data), and its synthetic test generation is LLM-based too |
 | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 18,731 | LLM evaluation framework, model-graded assertions | the grader is an LLM, and its synthesizer writes test cases with one; the unanswerable case is something you supply |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 25,870 | prompt, agent and RAG testing with red-teaming | needs model providers, and the assertions are hand-written, so it measures the cases you thought of |
 | **this bench** | — | abstention on a frozen exam with constructed negatives | no LLM, no network, deterministic; the unanswerable questions are *constructed and checked* rather than written by hand |
@@ -64,6 +64,12 @@ Three things here are not in those tools, and they are the point:
 1. **The negatives are built, not written.** A relation-level fake takes a real question and swaps one entity anchor for another real entity that sits far away in the text. Whether it is genuinely unanswerable is then *checked numerically* (a distance rule) instead of being asserted. Hand-written unanswerable sets only measure the cases their author imagined.
 2. **The parameters are frozen before anything is scored.** Every threshold, chunk size, drop ratio and band lives in `bench/config.py`, and the exam manifest records their values next to the exam's sha256. `verify` fails if a recorded parameter no longer matches the code, so a number cannot be improved by moving a threshold after the fact.
 3. **It reports how much of the question is still source text.** Questions are built from real sentences with a controlled fraction of context words removed, and every result is broken down by IDF-weighted overlap between the question and its source passage — so a reader can see whether the measured abstention is explained by the question practically quoting the answer.
+
+### Related work: this is not the first attempt, and abstention is not an empty field
+
+*AbstentionBench* ([Meta FAIR, arXiv 2506.09038](https://arxiv.org/abs/2506.09038), NeurIPS 2025) addresses the same concern one level up: it evaluates whether **large language models** decline across 20 curated datasets — unanswerable, underspecified, false-premise, outdated — and grades the answers with a judge. That is a statement about model behaviour. This bench says nothing about models: it takes the retrieval layer apart, so no model and no judge enter the loop. *SQuAD 2.0* (2018) is the older ancestor of the idea that unanswerable questions belong in an evaluation set, and hand-curated unanswerable sets have been the norm since.
+
+The difference is in how the negatives are made. A curated set is bounded by what its authors thought of, and once published its questions can end up in a training set. Here a negative is generated from the corpus by a rule that can be re-run, and its validity is checked numerically instead of asserted. The corpus is a parameter rather than a constant: the entity table is compiled by hand once per corpus and then frozen, so another corpus needs a new table, not new code. The claim in this repository is correspondingly narrow — not "a new benchmark for abstention", but that negatives can be constructed and verified rather than curated, that a judge-free metric can still separate the two halves, and that the parameters can be sealed so a number cannot be moved after the fact.
 
 ## How it works
 
