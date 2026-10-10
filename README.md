@@ -1,5 +1,7 @@
 # Retrieval Abstention Bench
 
+[![verify](https://github.com/simin-yuan/retrieval-abstention-bench/actions/workflows/verify.yml/badge.svg?branch=main)](https://github.com/simin-yuan/retrieval-abstention-bench/actions/workflows/verify.yml)
+
 **Does your retrieval or memory layer know when the answer is not in the corpus?**
 
 Most retrieval benchmarks score answerable questions: did the right passage come back? This one is about the other half. Three of its four question sets are *unanswerable by construction*, and the measurement is whether the system declines — or cites a passage it cannot support.
@@ -130,6 +132,8 @@ CAUGHT fake answered                criterion B abstain on entity-level fakes un
 ```
 
 A check that cannot fail is decoration, so a missed breakage is a test failure here.
+
+CI runs `verify` and one scoring cell on Python 3.9 and 3.12 (run `38071558272`, green on both).
 
 ## Limitations
 
