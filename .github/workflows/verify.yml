@@ -1,0 +1,29 @@
+name: verify
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: No dependencies to install
+        run: python -c "import sys; print(sys.version)"
+
+      - name: Self-tests and falsification
+        run: python bench/cli.py verify
+
+      - name: Score the frozen exam in one configuration
+        run: python bench/cli.py score --retriever bm25 --chunk 1600 --k 5 --drop 0.6

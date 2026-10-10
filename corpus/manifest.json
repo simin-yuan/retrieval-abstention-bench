@@ -1,0 +1,1542 @@
+{
+ "order": [
+  "sense-and-sensibility",
+  "pride-and-prejudice",
+  "mansfield-park",
+  "emma"
+ ],
+ "books": {
+  "sense-and-sensibility": {
+   "title": "Sense and Sensibility",
+   "year": 1811,
+   "http_source": "https://standardebooks.org/ebooks/jane-austen/sense-and-sensibility/text/single-page",
+   "chapters": 50,
+   "chars": 668536,
+   "sha256": "419b188b2ccc9ad01aba18b0c9ff5f0e8ce8d5a76de93c69f7999156c941b51c"
+  },
+  "pride-and-prejudice": {
+   "title": "Pride and Prejudice",
+   "year": 1813,
+   "http_source": "https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice/text/single-page",
+   "chapters": 61,
+   "chars": 684054,
+   "sha256": "b52aadb9954fe273b715474e1734f3d8d56f2da54c1c5e5223f9f20dfc98394f"
+  },
+  "mansfield-park": {
+   "title": "Mansfield Park",
+   "year": 1814,
+   "http_source": "https://standardebooks.org/ebooks/jane-austen/mansfield-park/text/single-page",
+   "chapters": 48,
+   "chars": 881530,
+   "sha256": "a378703278bebb0e29c8cbdbf09299652247605235577320935f2ee70ef97662"
+  },
+  "emma": {
+   "title": "Emma",
+   "year": 1815,
+   "http_source": "https://standardebooks.org/ebooks/jane-austen/emma/text/single-page",
+   "chapters": 55,
+   "chars": 880580,
+   "sha256": "2c2b7d4a72d49c5c744fc56b5c4ba35e8c6edc1fce94c9323ee1ad81ef112bf3"
+  }
+ },
+ "chapters": [
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 1,
+   "start": 0,
+   "end": 8880,
+   "chars": 8880
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 2,
+   "start": 8882,
+   "end": 19602,
+   "chars": 10720
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 3,
+   "start": 19604,
+   "end": 28395,
+   "chars": 8791
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 4,
+   "start": 28397,
+   "end": 39392,
+   "chars": 10995
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 5,
+   "start": 39394,
+   "end": 45205,
+   "chars": 5811
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 6,
+   "start": 45207,
+   "end": 52691,
+   "chars": 7484
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 7,
+   "start": 52693,
+   "end": 60054,
+   "chars": 7361
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 8,
+   "start": 60056,
+   "end": 67049,
+   "chars": 6993
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 9,
+   "start": 67051,
+   "end": 77521,
+   "chars": 10470
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 10,
+   "start": 77523,
+   "end": 89482,
+   "chars": 11959
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 11,
+   "start": 89484,
+   "end": 97875,
+   "chars": 8391
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 12,
+   "start": 97877,
+   "end": 107070,
+   "chars": 9193
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 13,
+   "start": 107072,
+   "end": 118583,
+   "chars": 11511
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 14,
+   "start": 118585,
+   "end": 126939,
+   "chars": 8354
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 15,
+   "start": 126941,
+   "end": 141186,
+   "chars": 14245
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 16,
+   "start": 141188,
+   "end": 152608,
+   "chars": 11420
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 17,
+   "start": 152610,
+   "end": 161741,
+   "chars": 9131
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 18,
+   "start": 161743,
+   "end": 170408,
+   "chars": 8665
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 19,
+   "start": 170410,
+   "end": 186578,
+   "chars": 16168
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 20,
+   "start": 186580,
+   "end": 199450,
+   "chars": 12870
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 21,
+   "start": 199452,
+   "end": 216022,
+   "chars": 16570
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 22,
+   "start": 216024,
+   "end": 231483,
+   "chars": 15459
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 23,
+   "start": 231485,
+   "end": 245120,
+   "chars": 13635
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 24,
+   "start": 245122,
+   "end": 256653,
+   "chars": 11531
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 25,
+   "start": 256655,
+   "end": 267456,
+   "chars": 10801
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 26,
+   "start": 267458,
+   "end": 281832,
+   "chars": 14374
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 27,
+   "start": 281834,
+   "end": 296012,
+   "chars": 14178
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 28,
+   "start": 296014,
+   "end": 304315,
+   "chars": 8301
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 29,
+   "start": 304317,
+   "end": 325498,
+   "chars": 21181
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 30,
+   "start": 325500,
+   "end": 341881,
+   "chars": 16381
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 31,
+   "start": 341883,
+   "end": 363131,
+   "chars": 21248
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 32,
+   "start": 363133,
+   "end": 377678,
+   "chars": 14545
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 33,
+   "start": 377680,
+   "end": 394462,
+   "chars": 16782
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 34,
+   "start": 394464,
+   "end": 409687,
+   "chars": 15223
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 35,
+   "start": 409689,
+   "end": 422674,
+   "chars": 12985
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 36,
+   "start": 422676,
+   "end": 440040,
+   "chars": 17364
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 37,
+   "start": 440042,
+   "end": 464545,
+   "chars": 24503
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 38,
+   "start": 464547,
+   "end": 481141,
+   "chars": 16594
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 39,
+   "start": 481143,
+   "end": 492323,
+   "chars": 11180
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 40,
+   "start": 492325,
+   "end": 506565,
+   "chars": 14240
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 41,
+   "start": 506567,
+   "end": 520992,
+   "chars": 14425
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 42,
+   "start": 520994,
+   "end": 531331,
+   "chars": 10337
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 43,
+   "start": 531333,
+   "end": 551010,
+   "chars": 19677
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 44,
+   "start": 551012,
+   "end": 581066,
+   "chars": 30054
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 45,
+   "start": 581068,
+   "end": 593168,
+   "chars": 12100
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 46,
+   "start": 593170,
+   "end": 609555,
+   "chars": 16385
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 47,
+   "start": 609557,
+   "end": 623028,
+   "chars": 13471
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 48,
+   "start": 623030,
+   "end": 630321,
+   "chars": 7291
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 49,
+   "start": 630323,
+   "end": 654050,
+   "chars": 23727
+  },
+  {
+   "book": "sense-and-sensibility",
+   "chapter": 50,
+   "start": 654052,
+   "end": 668536,
+   "chars": 14484
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 1,
+   "start": 0,
+   "end": 4472,
+   "chars": 4472
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 2,
+   "start": 4474,
+   "end": 8764,
+   "chars": 4290
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 3,
+   "start": 8766,
+   "end": 18314,
+   "chars": 9548
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 4,
+   "start": 18316,
+   "end": 24222,
+   "chars": 5906
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 5,
+   "start": 24224,
+   "end": 29456,
+   "chars": 5232
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 6,
+   "start": 29458,
+   "end": 42447,
+   "chars": 12989
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 7,
+   "start": 42449,
+   "end": 53607,
+   "chars": 11158
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 8,
+   "start": 53609,
+   "end": 64601,
+   "chars": 10992
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 9,
+   "start": 64603,
+   "end": 74337,
+   "chars": 9734
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 10,
+   "start": 74339,
+   "end": 86832,
+   "chars": 12493
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 11,
+   "start": 86834,
+   "end": 95762,
+   "chars": 8928
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 12,
+   "start": 95764,
+   "end": 99697,
+   "chars": 3933
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 13,
+   "start": 99699,
+   "end": 108955,
+   "chars": 9256
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 14,
+   "start": 108957,
+   "end": 115398,
+   "chars": 6441
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 15,
+   "start": 115400,
+   "end": 125172,
+   "chars": 9772
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 16,
+   "start": 125174,
+   "end": 144191,
+   "chars": 19017
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 17,
+   "start": 144193,
+   "end": 151470,
+   "chars": 7277
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 18,
+   "start": 151472,
+   "end": 180578,
+   "chars": 29106
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 19,
+   "start": 180580,
+   "end": 191205,
+   "chars": 10625
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 20,
+   "start": 191207,
+   "end": 200366,
+   "chars": 9159
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 21,
+   "start": 200368,
+   "end": 211641,
+   "chars": 11273
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 22,
+   "start": 211643,
+   "end": 221635,
+   "chars": 9992
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 23,
+   "start": 221637,
+   "end": 230950,
+   "chars": 9313
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 24,
+   "start": 230952,
+   "end": 241786,
+   "chars": 10834
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 25,
+   "start": 241788,
+   "end": 250381,
+   "chars": 8593
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 26,
+   "start": 250383,
+   "end": 263141,
+   "chars": 12758
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 27,
+   "start": 263143,
+   "end": 270342,
+   "chars": 7199
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 28,
+   "start": 270344,
+   "end": 278575,
+   "chars": 8231
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 29,
+   "start": 278577,
+   "end": 292282,
+   "chars": 13705
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 30,
+   "start": 292284,
+   "end": 299342,
+   "chars": 7058
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 31,
+   "start": 299344,
+   "end": 308097,
+   "chars": 8753
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 32,
+   "start": 308099,
+   "end": 316558,
+   "chars": 8459
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 33,
+   "start": 316560,
+   "end": 326932,
+   "chars": 10372
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 34,
+   "start": 326934,
+   "end": 338943,
+   "chars": 12009
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 35,
+   "start": 338945,
+   "end": 355941,
+   "chars": 16996
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 36,
+   "start": 355943,
+   "end": 367744,
+   "chars": 11801
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 37,
+   "start": 367746,
+   "end": 375538,
+   "chars": 7792
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 38,
+   "start": 375540,
+   "end": 381497,
+   "chars": 5957
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 39,
+   "start": 381499,
+   "end": 390258,
+   "chars": 8759
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 40,
+   "start": 390260,
+   "end": 399439,
+   "chars": 9179
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 41,
+   "start": 399441,
+   "end": 412427,
+   "chars": 12986
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 42,
+   "start": 412429,
+   "end": 423077,
+   "chars": 10648
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 43,
+   "start": 423079,
+   "end": 450586,
+   "chars": 27507
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 44,
+   "start": 450588,
+   "end": 463974,
+   "chars": 13386
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 45,
+   "start": 463976,
+   "end": 474074,
+   "chars": 10098
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 46,
+   "start": 474076,
+   "end": 490996,
+   "chars": 16920
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 47,
+   "start": 490998,
+   "end": 513339,
+   "chars": 22341
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 48,
+   "start": 513341,
+   "end": 525911,
+   "chars": 12570
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 49,
+   "start": 525913,
+   "end": 538171,
+   "chars": 12258
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 50,
+   "start": 538173,
+   "end": 550678,
+   "chars": 12505
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 51,
+   "start": 550680,
+   "end": 561897,
+   "chars": 11217
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 52,
+   "start": 561899,
+   "end": 578445,
+   "chars": 16546
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 53,
+   "start": 578447,
+   "end": 594542,
+   "chars": 16095
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 54,
+   "start": 594544,
+   "end": 603393,
+   "chars": 8849
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 55,
+   "start": 603395,
+   "end": 616375,
+   "chars": 12980
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 56,
+   "start": 616377,
+   "end": 631692,
+   "chars": 15315
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 57,
+   "start": 631694,
+   "end": 641085,
+   "chars": 9391
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 58,
+   "start": 641087,
+   "end": 654739,
+   "chars": 13652
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 59,
+   "start": 654741,
+   "end": 668283,
+   "chars": 13542
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 60,
+   "start": 668285,
+   "end": 676978,
+   "chars": 8693
+  },
+  {
+   "book": "pride-and-prejudice",
+   "chapter": 61,
+   "start": 676980,
+   "end": 684054,
+   "chars": 7074
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 1,
+   "start": 0,
+   "end": 17036,
+   "chars": 17036
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 2,
+   "start": 17038,
+   "end": 37732,
+   "chars": 20694
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 3,
+   "start": 37734,
+   "end": 57813,
+   "chars": 20079
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 4,
+   "start": 57815,
+   "end": 77324,
+   "chars": 19509
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 5,
+   "start": 77326,
+   "end": 92747,
+   "chars": 15421
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 6,
+   "start": 92749,
+   "end": 113427,
+   "chars": 20678
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 7,
+   "start": 113429,
+   "end": 136423,
+   "chars": 22994
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 8,
+   "start": 136425,
+   "end": 152084,
+   "chars": 15659
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 9,
+   "start": 152086,
+   "end": 176867,
+   "chars": 24781
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 10,
+   "start": 176869,
+   "end": 195040,
+   "chars": 18171
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 11,
+   "start": 195042,
+   "end": 208397,
+   "chars": 13355
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 12,
+   "start": 208399,
+   "end": 220721,
+   "chars": 12322
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 13,
+   "start": 220723,
+   "end": 238006,
+   "chars": 17283
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 14,
+   "start": 238008,
+   "end": 252670,
+   "chars": 14662
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 15,
+   "start": 252672,
+   "end": 273982,
+   "chars": 21310
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 16,
+   "start": 273984,
+   "end": 287613,
+   "chars": 13629
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 17,
+   "start": 287615,
+   "end": 298582,
+   "chars": 10967
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 18,
+   "start": 298584,
+   "end": 315693,
+   "chars": 17109
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 19,
+   "start": 315695,
+   "end": 339416,
+   "chars": 23721
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 20,
+   "start": 339418,
+   "end": 355504,
+   "chars": 16086
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 21,
+   "start": 355506,
+   "end": 372248,
+   "chars": 16742
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 22,
+   "start": 372250,
+   "end": 394580,
+   "chars": 22330
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 23,
+   "start": 394582,
+   "end": 416568,
+   "chars": 21986
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 24,
+   "start": 416570,
+   "end": 434077,
+   "chars": 17507
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 25,
+   "start": 434079,
+   "end": 460860,
+   "chars": 26781
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 26,
+   "start": 460862,
+   "end": 478132,
+   "chars": 17270
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 27,
+   "start": 478134,
+   "end": 499574,
+   "chars": 21440
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 28,
+   "start": 499576,
+   "end": 518072,
+   "chars": 18496
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 29,
+   "start": 518074,
+   "end": 533972,
+   "chars": 15898
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 30,
+   "start": 533974,
+   "end": 547316,
+   "chars": 13342
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 31,
+   "start": 547318,
+   "end": 567682,
+   "chars": 20364
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 32,
+   "start": 567684,
+   "end": 596038,
+   "chars": 28354
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 33,
+   "start": 596040,
+   "end": 611838,
+   "chars": 15798
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 34,
+   "start": 611840,
+   "end": 633707,
+   "chars": 21867
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 35,
+   "start": 633709,
+   "end": 653927,
+   "chars": 20218
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 36,
+   "start": 653929,
+   "end": 672954,
+   "chars": 19025
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 37,
+   "start": 672956,
+   "end": 690555,
+   "chars": 17599
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 38,
+   "start": 690557,
+   "end": 716710,
+   "chars": 26153
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 39,
+   "start": 716712,
+   "end": 725913,
+   "chars": 9201
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 40,
+   "start": 725915,
+   "end": 738297,
+   "chars": 12382
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 41,
+   "start": 738299,
+   "end": 754836,
+   "chars": 16537
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 42,
+   "start": 754838,
+   "end": 766782,
+   "chars": 11944
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 43,
+   "start": 766784,
+   "end": 776543,
+   "chars": 9759
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 44,
+   "start": 776545,
+   "end": 794198,
+   "chars": 17653
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 45,
+   "start": 794200,
+   "end": 810085,
+   "chars": 15885
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 46,
+   "start": 810087,
+   "end": 830639,
+   "chars": 20552
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 47,
+   "start": 830641,
+   "end": 855657,
+   "chars": 25016
+  },
+  {
+   "book": "mansfield-park",
+   "chapter": 48,
+   "start": 855659,
+   "end": 881530,
+   "chars": 25871
+  },
+  {
+   "book": "emma",
+   "chapter": 1,
+   "start": 0,
+   "end": 17847,
+   "chars": 17847
+  },
+  {
+   "book": "emma",
+   "chapter": 2,
+   "start": 17849,
+   "end": 27748,
+   "chars": 9899
+  },
+  {
+   "book": "emma",
+   "chapter": 3,
+   "start": 27750,
+   "end": 38370,
+   "chars": 10620
+  },
+  {
+   "book": "emma",
+   "chapter": 4,
+   "start": 38372,
+   "end": 57434,
+   "chars": 19062
+  },
+  {
+   "book": "emma",
+   "chapter": 5,
+   "start": 57436,
+   "end": 68130,
+   "chars": 10694
+  },
+  {
+   "book": "emma",
+   "chapter": 6,
+   "start": 68132,
+   "end": 83194,
+   "chars": 15062
+  },
+  {
+   "book": "emma",
+   "chapter": 7,
+   "start": 83196,
+   "end": 96304,
+   "chars": 13108
+  },
+  {
+   "book": "emma",
+   "chapter": 8,
+   "start": 96306,
+   "end": 119616,
+   "chars": 23310
+  },
+  {
+   "book": "emma",
+   "chapter": 9,
+   "start": 119618,
+   "end": 145306,
+   "chars": 25688
+  },
+  {
+   "book": "emma",
+   "chapter": 10,
+   "start": 145308,
+   "end": 159626,
+   "chars": 14318
+  },
+  {
+   "book": "emma",
+   "chapter": 11,
+   "start": 159628,
+   "end": 171616,
+   "chars": 11988
+  },
+  {
+   "book": "emma",
+   "chapter": 12,
+   "start": 171618,
+   "end": 189220,
+   "chars": 17602
+  },
+  {
+   "book": "emma",
+   "chapter": 13,
+   "start": 189222,
+   "end": 205776,
+   "chars": 16554
+  },
+  {
+   "book": "emma",
+   "chapter": 14,
+   "start": 205778,
+   "end": 218997,
+   "chars": 13219
+  },
+  {
+   "book": "emma",
+   "chapter": 15,
+   "start": 218999,
+   "end": 237483,
+   "chars": 18484
+  },
+  {
+   "book": "emma",
+   "chapter": 16,
+   "start": 237485,
+   "end": 248134,
+   "chars": 10649
+  },
+  {
+   "book": "emma",
+   "chapter": 17,
+   "start": 248136,
+   "end": 254839,
+   "chars": 6703
+  },
+  {
+   "book": "emma",
+   "chapter": 18,
+   "start": 254841,
+   "end": 268621,
+   "chars": 13780
+  },
+  {
+   "book": "emma",
+   "chapter": 19,
+   "start": 268623,
+   "end": 284702,
+   "chars": 16079
+  },
+  {
+   "book": "emma",
+   "chapter": 20,
+   "start": 284704,
+   "end": 298500,
+   "chars": 13796
+  },
+  {
+   "book": "emma",
+   "chapter": 21,
+   "start": 298502,
+   "end": 319562,
+   "chars": 21060
+  },
+  {
+   "book": "emma",
+   "chapter": 22,
+   "start": 319564,
+   "end": 328924,
+   "chars": 9360
+  },
+  {
+   "book": "emma",
+   "chapter": 23,
+   "start": 328926,
+   "end": 347217,
+   "chars": 18291
+  },
+  {
+   "book": "emma",
+   "chapter": 24,
+   "start": 347219,
+   "end": 363882,
+   "chars": 16663
+  },
+  {
+   "book": "emma",
+   "chapter": 25,
+   "start": 363884,
+   "end": 376637,
+   "chars": 12753
+  },
+  {
+   "book": "emma",
+   "chapter": 26,
+   "start": 376639,
+   "end": 412289,
+   "chars": 35650
+  },
+  {
+   "book": "emma",
+   "chapter": 27,
+   "start": 412291,
+   "end": 429321,
+   "chars": 17030
+  },
+  {
+   "book": "emma",
+   "chapter": 28,
+   "start": 429323,
+   "end": 440357,
+   "chars": 11034
+  },
+  {
+   "book": "emma",
+   "chapter": 29,
+   "start": 440359,
+   "end": 458216,
+   "chars": 17857
+  },
+  {
+   "book": "emma",
+   "chapter": 30,
+   "start": 458218,
+   "end": 470082,
+   "chars": 11864
+  },
+  {
+   "book": "emma",
+   "chapter": 31,
+   "start": 470084,
+   "end": 481085,
+   "chars": 11001
+  },
+  {
+   "book": "emma",
+   "chapter": 32,
+   "start": 481087,
+   "end": 501935,
+   "chars": 20848
+  },
+  {
+   "book": "emma",
+   "chapter": 33,
+   "start": 501937,
+   "end": 518626,
+   "chars": 16689
+  },
+  {
+   "book": "emma",
+   "chapter": 34,
+   "start": 518628,
+   "end": 535685,
+   "chars": 17057
+  },
+  {
+   "book": "emma",
+   "chapter": 35,
+   "start": 535687,
+   "end": 547614,
+   "chars": 11927
+  },
+  {
+   "book": "emma",
+   "chapter": 36,
+   "start": 547616,
+   "end": 562884,
+   "chars": 15268
+  },
+  {
+   "book": "emma",
+   "chapter": 37,
+   "start": 562886,
+   "end": 569888,
+   "chars": 7002
+  },
+  {
+   "book": "emma",
+   "chapter": 38,
+   "start": 569890,
+   "end": 594476,
+   "chars": 24586
+  },
+  {
+   "book": "emma",
+   "chapter": 39,
+   "start": 594478,
+   "end": 604145,
+   "chars": 9667
+  },
+  {
+   "book": "emma",
+   "chapter": 40,
+   "start": 604147,
+   "end": 615377,
+   "chars": 11230
+  },
+  {
+   "book": "emma",
+   "chapter": 41,
+   "start": 615379,
+   "end": 631924,
+   "chars": 16545
+  },
+  {
+   "book": "emma",
+   "chapter": 42,
+   "start": 631926,
+   "end": 660313,
+   "chars": 28387
+  },
+  {
+   "book": "emma",
+   "chapter": 43,
+   "start": 660315,
+   "end": 678677,
+   "chars": 18362
+  },
+  {
+   "book": "emma",
+   "chapter": 44,
+   "start": 678679,
+   "end": 693706,
+   "chars": 15027
+  },
+  {
+   "book": "emma",
+   "chapter": 45,
+   "start": 693708,
+   "end": 707668,
+   "chars": 13960
+  },
+  {
+   "book": "emma",
+   "chapter": 46,
+   "start": 707670,
+   "end": 724974,
+   "chars": 17304
+  },
+  {
+   "book": "emma",
+   "chapter": 47,
+   "start": 724976,
+   "end": 749110,
+   "chars": 24134
+  },
+  {
+   "book": "emma",
+   "chapter": 48,
+   "start": 749112,
+   "end": 765960,
+   "chars": 16848
+  },
+  {
+   "book": "emma",
+   "chapter": 49,
+   "start": 765962,
+   "end": 784790,
+   "chars": 18828
+  },
+  {
+   "book": "emma",
+   "chapter": 50,
+   "start": 784792,
+   "end": 804902,
+   "chars": 20110
+  },
+  {
+   "book": "emma",
+   "chapter": 51,
+   "start": 804904,
+   "end": 818041,
+   "chars": 13137
+  },
+  {
+   "book": "emma",
+   "chapter": 52,
+   "start": 818043,
+   "end": 836260,
+   "chars": 18217
+  },
+  {
+   "book": "emma",
+   "chapter": 53,
+   "start": 836262,
+   "end": 853353,
+   "chars": 17091
+  },
+  {
+   "book": "emma",
+   "chapter": 54,
+   "start": 853355,
+   "end": 873568,
+   "chars": 20213
+  },
+  {
+   "book": "emma",
+   "chapter": 55,
+   "start": 873570,
+   "end": 880580,
+   "chars": 7010
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this bench in your work, please cite it as below."
+title: "Retrieval Abstention Bench"
+abstract: >-
+  A benchmark for a retrieval or memory layer that must decide whether to answer
+  or to decline. Questions are frozen with a sha256 manifest and threshold rules
+  recorded before any result; unanswerable questions are constructed by swapping
+  an entity anchor under a distance rule rather than written by hand; and a leak
+  check reports how much of each question is still verbatim source text. No LLM
+  is involved anywhere in the harness.
+authors:
+  - family-names: Yuan
+    given-names: Simin
+    alias: simin-yuan
+    website: "https://github.com/simin-yuan"
+version: 0.1.0
+date-released: "2026-10-11"
+license: MIT
+repository-code: "https://github.com/simin-yuan/retrieval-abstention-bench"
+keywords:
+  - retrieval
+  - abstention
+  - benchmark
+  - hallucination
+  - grounding
+  - evaluation

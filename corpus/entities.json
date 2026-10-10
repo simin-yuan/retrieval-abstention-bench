@@ -1,0 +1,639 @@
+{
+ "note": "Frozen entity table. Each entity belongs to one book and is matched ONLY inside that book, which is what makes a bare first name unambiguous: 'Jane' in Pride and Prejudice is Jane Bennet, 'Jane' in Emma is Jane Fairfax. Ambiguous forms that cannot be resolved this way are excluded -- see corpus/AMBIGUOUS.md. Numbers are excluded by design. Occurrence counts (n) are recorded for the frequency-matched pairing; positions are recomputed at run time, never stored.",
+ "counts": {
+  "entities": 69,
+  "persons": 46,
+  "places": 23
+ },
+ "entities": [
+  {
+   "id": "elinor",
+   "type": "person",
+   "book": "sense-and-sensibility",
+   "forms": [
+    "Elinor"
+   ],
+   "n": 685
+  },
+  {
+   "id": "marianne",
+   "type": "person",
+   "book": "sense-and-sensibility",
+   "forms": [
+    "Marianne"
+   ],
+   "n": 566
+  },
+  {
+   "id": "edward",
+   "type": "person",
+   "book": "sense-and-sensibility",
+   "forms": [
+    "Edward"
+   ],
+   "n": 263
+  },
+  {
+   "id": "lucy",
+   "type": "person",
+   "book": "sense-and-sensibility",
+   "forms": [
+    "Lucy"
+   ],
+   "n": 186
+  },
+  {
+   "id": "willoughby",
+   "type": "person",
+   "book": "sense-and-sensibility",
+   "forms": [
+    "Willoughby"
+   ],
+   "n": 216
+  },
+  {
+   "id": "brandon",
+   "type": "person",
+   "book": "sense-and-sensibility",
+   "forms": [
+    "Brandon"
+   ],
+   "n": 144
+  },
+  {
+   "id": "jennings",
+   "type": "person",
+   "book": "sense-and-sensibility",
+   "forms": [
+    "Jennings"
+   ],
+   "n": 235
+  },
+  {
+   "id": "fanny-dashwood",
+   "type": "person",
+   "book": "sense-and-sensibility",
+   "forms": [
+    "Fanny"
+   ],
+   "n": 48
+  },
+  {
+   "id": "charlotte-palmer",
+   "type": "person",
+   "book": "sense-and-sensibility",
+   "forms": [
+    "Charlotte"
+   ],
+   "n": 24
+  },
+  {
+   "id": "elizabeth",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Elizabeth",
+    "Lizzy",
+    "Eliza"
+   ],
+   "n": 754
+  },
+  {
+   "id": "darcy",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Darcy"
+   ],
+   "n": 418
+  },
+  {
+   "id": "bingley",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Bingley"
+   ],
+   "n": 307
+  },
+  {
+   "id": "wickham",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Wickham"
+   ],
+   "n": 194
+  },
+  {
+   "id": "collins",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Collins"
+   ],
+   "n": 179
+  },
+  {
+   "id": "lydia",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Lydia"
+   ],
+   "n": 171
+  },
+  {
+   "id": "kitty",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Kitty"
+   ],
+   "n": 71
+  },
+  {
+   "id": "charlotte-lucas",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Charlotte"
+   ],
+   "n": 85
+  },
+  {
+   "id": "lady-catherine",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Lady Catherine"
+   ],
+   "n": 116
+  },
+  {
+   "id": "jane-bennet",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Jane"
+   ],
+   "n": 292
+  },
+  {
+   "id": "mr-bennet",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Mr. Bennet",
+    "Mr Bennet"
+   ],
+   "n": 90
+  },
+  {
+   "id": "mrs-bennet",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Mrs. Bennet",
+    "Mrs Bennet"
+   ],
+   "n": 153
+  },
+  {
+   "id": "mary-bennet",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Mary"
+   ],
+   "n": 39
+  },
+  {
+   "id": "maria-lucas",
+   "type": "person",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Maria"
+   ],
+   "n": 20
+  },
+  {
+   "id": "fanny-price",
+   "type": "person",
+   "book": "mansfield-park",
+   "forms": [
+    "Fanny"
+   ],
+   "n": 925
+  },
+  {
+   "id": "edmund",
+   "type": "person",
+   "book": "mansfield-park",
+   "forms": [
+    "Edmund"
+   ],
+   "n": 412
+  },
+  {
+   "id": "norris",
+   "type": "person",
+   "book": "mansfield-park",
+   "forms": [
+    "Norris"
+   ],
+   "n": 209
+  },
+  {
+   "id": "rushworth",
+   "type": "person",
+   "book": "mansfield-park",
+   "forms": [
+    "Rushworth"
+   ],
+   "n": 218
+  },
+  {
+   "id": "susan",
+   "type": "person",
+   "book": "mansfield-park",
+   "forms": [
+    "Susan"
+   ],
+   "n": 74
+  },
+  {
+   "id": "tom",
+   "type": "person",
+   "book": "mansfield-park",
+   "forms": [
+    "Tom"
+   ],
+   "n": 88
+  },
+  {
+   "id": "julia",
+   "type": "person",
+   "book": "mansfield-park",
+   "forms": [
+    "Julia"
+   ],
+   "n": 137
+  },
+  {
+   "id": "maria-bertram",
+   "type": "person",
+   "book": "mansfield-park",
+   "forms": [
+    "Maria"
+   ],
+   "n": 120
+  },
+  {
+   "id": "yates",
+   "type": "person",
+   "book": "mansfield-park",
+   "forms": [
+    "Yates"
+   ],
+   "n": 66
+  },
+  {
+   "id": "sir-thomas",
+   "type": "person",
+   "book": "mansfield-park",
+   "forms": [
+    "Sir Thomas"
+   ],
+   "n": 329
+  },
+  {
+   "id": "henry-crawford",
+   "type": "person",
+   "book": "mansfield-park",
+   "forms": [
+    "Henry",
+    "Henry Crawford"
+   ],
+   "n": 185
+  },
+  {
+   "id": "mary-crawford",
+   "type": "person",
+   "book": "mansfield-park",
+   "forms": [
+    "Mary",
+    "Mary Crawford"
+   ],
+   "n": 78
+  },
+  {
+   "id": "emma",
+   "type": "person",
+   "book": "emma",
+   "forms": [
+    "Emma"
+   ],
+   "n": 864
+  },
+  {
+   "id": "harriet",
+   "type": "person",
+   "book": "emma",
+   "forms": [
+    "Harriet"
+   ],
+   "n": 506
+  },
+  {
+   "id": "jane-fairfax",
+   "type": "person",
+   "book": "emma",
+   "forms": [
+    "Fairfax",
+    "Jane"
+   ],
+   "n": 541
+  },
+  {
+   "id": "frank-churchill",
+   "type": "person",
+   "book": "emma",
+   "forms": [
+    "Frank",
+    "Churchill"
+   ],
+   "n": 432
+  },
+  {
+   "id": "isabella",
+   "type": "person",
+   "book": "emma",
+   "forms": [
+    "Isabella"
+   ],
+   "n": 69
+  },
+  {
+   "id": "elton",
+   "type": "person",
+   "book": "emma",
+   "forms": [
+    "Elton"
+   ],
+   "n": 387
+  },
+  {
+   "id": "bates",
+   "type": "person",
+   "book": "emma",
+   "forms": [
+    "Bates"
+   ],
+   "n": 148
+  },
+  {
+   "id": "weston",
+   "type": "person",
+   "book": "emma",
+   "forms": [
+    "Weston"
+   ],
+   "n": 440
+  },
+  {
+   "id": "mr-knightley",
+   "type": "person",
+   "book": "emma",
+   "forms": [
+    "Mr. Knightley"
+   ],
+   "n": 299
+  },
+  {
+   "id": "john-knightley",
+   "type": "person",
+   "book": "emma",
+   "forms": [
+    "John Knightley"
+   ],
+   "n": 58
+  },
+  {
+   "id": "mr-woodhouse",
+   "type": "person",
+   "book": "emma",
+   "forms": [
+    "Mr. Woodhouse"
+   ],
+   "n": 136
+  },
+  {
+   "id": "norland",
+   "type": "place",
+   "book": "sense-and-sensibility",
+   "forms": [
+    "Norland"
+   ],
+   "n": 53
+  },
+  {
+   "id": "barton",
+   "type": "place",
+   "book": "sense-and-sensibility",
+   "forms": [
+    "Barton"
+   ],
+   "n": 89
+  },
+  {
+   "id": "delaford",
+   "type": "place",
+   "book": "sense-and-sensibility",
+   "forms": [
+    "Delaford"
+   ],
+   "n": 30
+  },
+  {
+   "id": "cleveland",
+   "type": "place",
+   "book": "sense-and-sensibility",
+   "forms": [
+    "Cleveland"
+   ],
+   "n": 27
+  },
+  {
+   "id": "longbourn",
+   "type": "place",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Longbourn"
+   ],
+   "n": 88
+  },
+  {
+   "id": "netherfield",
+   "type": "place",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Netherfield"
+   ],
+   "n": 73
+  },
+  {
+   "id": "pemberley",
+   "type": "place",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Pemberley"
+   ],
+   "n": 53
+  },
+  {
+   "id": "rosings",
+   "type": "place",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Rosings"
+   ],
+   "n": 49
+  },
+  {
+   "id": "hunsford",
+   "type": "place",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Hunsford"
+   ],
+   "n": 25
+  },
+  {
+   "id": "meryton",
+   "type": "place",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Meryton"
+   ],
+   "n": 57
+  },
+  {
+   "id": "lambton",
+   "type": "place",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Lambton"
+   ],
+   "n": 10
+  },
+  {
+   "id": "hertfordshire",
+   "type": "place",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Hertfordshire"
+   ],
+   "n": 41
+  },
+  {
+   "id": "derbyshire",
+   "type": "place",
+   "book": "pride-and-prejudice",
+   "forms": [
+    "Derbyshire"
+   ],
+   "n": 24
+  },
+  {
+   "id": "mansfield",
+   "type": "place",
+   "book": "mansfield-park",
+   "forms": [
+    "Mansfield"
+   ],
+   "n": 184
+  },
+  {
+   "id": "sotherton",
+   "type": "place",
+   "book": "mansfield-park",
+   "forms": [
+    "Sotherton"
+   ],
+   "n": 54
+  },
+  {
+   "id": "portsmouth",
+   "type": "place",
+   "book": "mansfield-park",
+   "forms": [
+    "Portsmouth"
+   ],
+   "n": 45
+  },
+  {
+   "id": "thornton-lacey",
+   "type": "place",
+   "book": "mansfield-park",
+   "forms": [
+    "Thornton Lacey"
+   ],
+   "n": 19
+  },
+  {
+   "id": "hartfield",
+   "type": "place",
+   "book": "emma",
+   "forms": [
+    "Hartfield"
+   ],
+   "n": 160
+  },
+  {
+   "id": "highbury",
+   "type": "place",
+   "book": "emma",
+   "forms": [
+    "Highbury"
+   ],
+   "n": 125
+  },
+  {
+   "id": "randalls",
+   "type": "place",
+   "book": "emma",
+   "forms": [
+    "Randalls"
+   ],
+   "n": 91
+  },
+  {
+   "id": "donwell",
+   "type": "place",
+   "book": "emma",
+   "forms": [
+    "Donwell"
+   ],
+   "n": 49
+  },
+  {
+   "id": "enscombe",
+   "type": "place",
+   "book": "emma",
+   "forms": [
+    "Enscombe"
+   ],
+   "n": 36
+  },
+  {
+   "id": "richmond",
+   "type": "place",
+   "book": "emma",
+   "forms": [
+    "Richmond"
+   ],
+   "n": 13
+  }
+ ]
+}
