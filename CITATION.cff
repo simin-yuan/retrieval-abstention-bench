@@ -10,7 +10,8 @@ abstract: >-
   is involved anywhere in the harness.
 authors:
   - family-names: Yuan
-    given-names: Simin
+    given-names: "Simin (Simon)"
+    orcid: "https://orcid.org/0009-0002-6843-3390"
     alias: simin-yuan
     website: "https://github.com/simin-yuan"
 version: 0.1.0

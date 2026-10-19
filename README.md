@@ -164,3 +164,5 @@ python corpus/build_corpus.py --out corpus
 ## License
 
 MIT for the code — see `LICENSE`. The corpus is public domain, CC0 1.0 as distributed by Standard Ebooks. If you use this in academic work, `CITATION.cff` has the citation.
+
+© 2026 Simin (Simon) Yuan — ORCID [0009-0002-6843-3390](https://orcid.org/0009-0002-6843-3390) · [github.com/simin-yuan](https://github.com/simin-yuan).
