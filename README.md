@@ -161,6 +161,12 @@ Rebuilding the corpus needs network access; the built corpus is committed, so no
 python corpus/build_corpus.py --out corpus
 ```
 
+## Record
+
+- Discovered: 2026-10-10
+- First public: 2026-10-10
+- Patch commit: — (this bench measures published behaviour; it carries no upstream patch)
+
 ## License
 
 MIT for the code — see `LICENSE`. The corpus is public domain, CC0 1.0 as distributed by Standard Ebooks. If you use this in academic work, `CITATION.cff` has the citation.
