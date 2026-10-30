@@ -167,6 +167,17 @@ python corpus/build_corpus.py --out corpus
 - First public: 2026-10-10
 - Patch commit: — (this bench measures published behaviour; it carries no upstream patch)
 
+## Citing the raw records
+
+The per-run records behind this benchmark are archived as a citable dataset:
+
+**Simin Yuan.** *Agent failure-mode benchmarks: raw measurement records.* Zenodo, 2026.
+DOI [10.5281/zenodo.23808696](https://doi.org/10.5281/zenodo.23808696) — concept DOI for later versions: `10.5281/zenodo.23808695`.
+
+- 721 files: the untouched result files from all four benchmarks, copied byte-for-byte at the commits named in this repository's record section.
+- The records are CC-BY-4.0; the code in this repository keeps its own license (below).
+- Cite this repository for the method, and the dataset for the runs behind the numbers.
+
 ## License
 
 MIT for the code — see `LICENSE`. The corpus is public domain, CC0 1.0 as distributed by Standard Ebooks. If you use this in academic work, `CITATION.cff` has the citation.

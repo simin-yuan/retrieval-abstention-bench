@@ -18,6 +18,10 @@ version: 0.1.0
 date-released: "2026-10-11"
 license: MIT
 repository-code: "https://github.com/simin-yuan/retrieval-abstention-bench"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23808696
+    description: "Raw measurement records (dataset, CC-BY-4.0)"
 keywords:
   - retrieval
   - abstention
